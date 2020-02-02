@@ -7,7 +7,7 @@ function updateValue(field, value) {
             field.innerHTML = value;
         }, false);
 
-        field.removeEventListener('webkitAnimationEnd', false);
+        //field.removeEventListener('webkitAnimationEnd', false);
         return true;
     }
     return false;
